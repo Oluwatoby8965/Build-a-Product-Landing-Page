@@ -29,3 +29,26 @@ ul li {
     float: left;
     margin-top: 20px;
 }
+
+#video{
+    padding: 5%;
+    color: rgb(235, 236, 241);
+}
+#features {
+    margin-top: 30px;
+  }
+  
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  
+  @media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
